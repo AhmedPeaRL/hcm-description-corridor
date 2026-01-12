@@ -1,0 +1,20 @@
+{
+  "role": "description_only",
+
+  "allowed_operations": {
+    "summarize_presence": true,
+    "mirror_context": true,
+    "frame_request_as_description": true
+  },
+
+  "forbidden_operations": {
+    "decision": true,
+    "response_generation": true,
+    "dialogue": true
+  },
+
+  "output": {
+    "descriptor_object": true,
+    "execution_intent": false
+  }
+}
